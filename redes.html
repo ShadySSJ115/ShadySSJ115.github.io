@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda en linea</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <style>
+
+.image-link {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-image: url('tu-imagen.jpg');
+            background-size: cover;
+            background-position: center;
+            background-image: url('https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1826414947.1699228800&semt=ais');
+        }
+        .image1-link {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-image: url('tu-imagen.jpg');
+            background-size: cover;
+            background-position: center;
+            background-image: url('https://img.freepik.com/vector-premium/icono-aplicacion-facebook-logotipo-redes-sociales-ilustracion-vectorial-meta_277909-402.jpg');
+        }
+        .image3-link {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-image: url('tu-imagen.jpg');
+            background-size: cover;
+            background-position: center;
+            background-image: url('https://img.freepik.com/vector-premium/icono-aplicacion-instagram-logotipo-redes-sociales-ilustracion-vectorial_277909-403.jpg?size=338&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=ais');
+        }
+        .image4-link {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-image: url('moto.jpeg');
+            background-size: cover;
+            background-position: center;
+            
+        }
+         .product img {
+            width: 397px;  /* Ancho de la imagen */
+            height: 367px; /* Alto de la imagen */
+            object-fit: cover; /* Esto hará que la imagen se ajuste al tamaño especificado, pero se recortará si su tamaño original no coincide con el tamaño especificado */
+        }
+         .wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #fff;
+}
+
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        SSJ
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Proyecto.html">Inicio</a></li>
+        </ul>
+    </nav>
+    <main style="text-align: center;">
+        <div >
+
+            <a href="https://x.com/BenjaminSSJ11?t=sPovkdnmibfjf_YplFNjhA&s=09" class="image-link"></a>         
+
+        
+        </div>
+        <main style="text-align: center;">
+            <div >
+    
+                <a href="https://www.facebook.com/profile.php?id=100011795988135" class="image1-link"></a>         
+    
+            
+            </div>
+            <main style="text-align: center;">
+                <div >
+        
+                    <a href="https://instagram.com/benjamin__ssj__?igshid=MXZkc2V0NmdmMDJzNQ==" class="image3-link"></a>         
+        
+                
+                </div>
+        <div class="product">
+            <div>
+               
+                <a href="https://instagram.com/duki?igshid=MXhncmZ4NHRrdDhsZA=="class="image4-link"></a>      
+                
+            </div>
+    </main>
+  
+    
+    
+</body>
+</html>

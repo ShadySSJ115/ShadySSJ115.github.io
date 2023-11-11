@@ -1,0 +1,43 @@
+body {
+  background-color: #2c2c2c;
+}
+
+.color-3 {
+  stroke: #05ffa1;
+  transform: translate3d(2px, 2px, 0);
+  stroke-width: 6px;
+}
+
+.color-1 {
+  stroke: #ffffff;
+  stroke-width: 8px;
+}
+
+.color-2 {
+  stroke: #01cdfe;
+  transform: translate3d(2px, 2px, 0);
+  stroke-width: 8px;
+  z-index: 9999;
+}
+
+/* Main SVG */
+
+.letters {
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  stroke-miterlimit: 3;
+  fill: none;
+  top: 20px;
+  display: block;
+  min-height: 400px;
+  max-height: 70vh;
+  margin: 0 auto;
+  position: absolute;
+}
+
+/* Letter path */
+
+.letter__layer {
+  fill: none;
+}
